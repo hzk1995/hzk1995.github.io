@@ -1,0 +1,258 @@
+.gwc {
+  position: relative; }
+  .gwc .gwcbox {
+    border: 1px solid #b4a078;
+    left: -150px;
+    top: 50px;
+    position: absolute;
+    width: 330px;
+    height: 328px;
+    display: none;
+    justify-content: space-between;
+    flex-direction: column;
+    background: white; }
+    .gwc .gwcbox .sanjiao {
+      width: 0;
+      height: 0;
+      border: 10px solid transparent;
+      border-bottom: 10px solid #b4a078;
+      position: relative;
+      left: 50%;
+      top: -20px; }
+    .gwc .gwcbox .main {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      overflow-y: auto;
+      overflow-x: hidden; }
+      .gwc .gwcbox .main .shopbox {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0 10px 15px;
+        width: 314px;
+        height: 60px;
+        align-items: center; }
+        .gwc .gwcbox .main .shopbox img {
+          width: 60px;
+          height: 60px; }
+        .gwc .gwcbox .main .shopbox .center {
+          height: 60px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          font-size: 14px; }
+          .gwc .gwcbox .main .shopbox .center .p11 {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 140px; }
+          .gwc .gwcbox .main .shopbox .center div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap; }
+            .gwc .gwcbox .main .shopbox .center div p {
+              font-size: 14px;
+              width: 120px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap; }
+            .gwc .gwcbox .main .shopbox .center div span {
+              font-size: 12px; }
+        .gwc .gwcbox .main .shopbox .right {
+          margin-bottom: 20px;
+          font-size: 12px;
+          color: #ff9b64; }
+        .gwc .gwcbox .main .shopbox b {
+          margin-bottom: 20px;
+          padding-right: 25px;
+          padding-left: 5px;
+          font-weight: 500; }
+    .gwc .gwcbox .bottom {
+      display: flex;
+      justify-content: space-between;
+      background: #f4eadc;
+      padding: 15px 10px;
+      padding-right: 30px; }
+      .gwc .gwcbox .bottom .left {
+        height: 36px; }
+        .gwc .gwcbox .bottom .left span {
+          font-size: 14px;
+          line-height: 18px; }
+        .gwc .gwcbox .bottom .left .price {
+          color: red; }
+      .gwc .gwcbox .bottom a {
+        line-height: 36px;
+        text-align: center;
+        background: #b4a078;
+        padding: 0 20px;
+        font-size: 14px;
+        height: 36px;
+        color: white;
+        text-decoration: none; }
+
+#j-app {
+  width: 100%;
+  border-top: 1px solid #e5e5e5; }
+  #j-app .m-crumb {
+    width: 1090px;
+    margin: 18px auto;
+    height: 16px; }
+    #j-app .m-crumb span {
+      font-size: 12px;
+      line-height: 16px;
+      color: #969696;
+      padding-right: 4px; }
+      #j-app .m-crumb span a {
+        text-decoration: none;
+        color: #969696; }
+  #j-app .m-tetail {
+    width: 1090px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; }
+    #j-app .m-tetail .m-slide {
+      position: relative; }
+      #j-app .m-tetail .m-slide .img2 {
+        position: absolute;
+        left: 450px;
+        top: 0px;
+        overflow: hidden;
+        width: 430px;
+        height: 430px; }
+        #j-app .m-tetail .m-slide .img2 img {
+          position: absolute;
+          width: 860px;
+          height: 860px; }
+      #j-app .m-tetail .m-slide .picsWrap {
+        position: relative; }
+        #j-app .m-tetail .m-slide .picsWrap img {
+          width: 430px;
+          height: 430px; }
+        #j-app .m-tetail .m-slide .picsWrap .hk {
+          width: 50%;
+          height: 50%;
+          background: rgba(180, 160, 120, 0.5);
+          position: absolute;
+          z-index: 100;
+          top: 0; }
+      #j-app .m-tetail .m-slide .magnifier {
+        width: 30px;
+        height: 30px;
+        background: #999;
+        position: absolute;
+        text-align: center;
+        line-height: 30px;
+        right: 0;
+        top: 400px; }
+      #j-app .m-tetail .m-slide .data-reactid {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px; }
+        #j-app .m-tetail .m-slide .data-reactid li {
+          background: #f0f0f0;
+          border: 1px solid #c8c8c8; }
+          #j-app .m-tetail .m-slide .data-reactid li a img {
+            width: 78px;
+            height: 78px; }
+    #j-app .m-tetail .m-info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 50px; }
+      #j-app .m-tetail .m-info .intro {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; }
+        #j-app .m-tetail .m-info .intro .name span {
+          font-size: 20px;
+          font-weight: 900; }
+        #j-app .m-tetail .m-info .intro .name p {
+          font-size: 14px;
+          color: #c8c8c8; }
+        #j-app .m-tetail .m-info .intro .data-reactid {
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          #j-app .m-tetail .m-info .intro .data-reactid .f-fz20 {
+            color: #ff6400;
+            font-size: 20px; }
+          #j-app .m-tetail .m-info .intro .data-reactid .f-fz13 {
+            font-size: 12px; }
+      #j-app .m-tetail .m-info .label {
+        font-size: 14px;
+        color: #666;
+        width: 55px; }
+      #j-app .m-tetail .m-info .price {
+        background: #f5f3ef;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px; }
+        #j-app .m-tetail .m-info .price .f-clearfix {
+          display: flex;
+          align-items: baseline;
+          padding: 10px 0; }
+          #j-app .m-tetail .m-info .price .f-clearfix .rp .rmb {
+            font-size: 16px;
+            color: #ff0064; }
+          #j-app .m-tetail .m-info .price .f-clearfix .rp .num {
+            font-size: 24px;
+            color: #ff0064; }
+          #j-app .m-tetail .m-info .price .f-clearfix .right .r1 {
+            font-size: 14px; }
+          #j-app .m-tetail .m-info .price .f-clearfix .right .r2 {
+            font-size: 14px;
+            color: red; }
+          #j-app .m-tetail .m-info .price .f-clearfix .policyBox {
+            display: flex;
+            flex-wrap: wrap; }
+            #j-app .m-tetail .m-info .price .f-clearfix .policyBox li {
+              margin: 0 10px;
+              list-style: none;
+              font-size: 14px;
+              color: #787878; }
+      #j-app .m-tetail .m-info .f-clearfix1 {
+        display: flex;
+        align-items: center; }
+        #j-app .m-tetail .m-info .f-clearfix1 .name {
+          width: 54px;
+          font-size: 14px;
+          color: #787878; }
+        #j-app .m-tetail .m-info .f-clearfix1 .u-selnum {
+          display: flex; }
+          #j-app .m-tetail .m-info .f-clearfix1 .u-selnum .z-dis {
+            width: 36px;
+            height: 30px;
+            border: 1px solid #c8c8c8;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            cursor: pointer; }
+          #j-app .m-tetail .m-info .f-clearfix1 .u-selnum input {
+            width: 60px;
+            border: none;
+            border-top: 1px solid #787878;
+            border-bottom: 1px solid #787878;
+            text-align: center; }
+      #j-app .m-tetail .m-info .btns {
+        display: flex;
+        margin-bottom: 10px; }
+        #j-app .m-tetail .m-info .btns .btn {
+          width: 168px;
+          height: 50px;
+          background: #f5f3ef;
+          text-decoration: none;
+          color: #c0ae8a;
+          border: 1px solid #c0ae8a;
+          line-height: 50px;
+          text-align: center;
+          margin-right: 10px; }
+        #j-app .m-tetail .m-info .btns .car {
+          background: #b4a078;
+          color: white; }
+          #j-app .m-tetail .m-info .btns .car .iconfont {
+            font-size: 20px;
+            margin-right: 8px; }
