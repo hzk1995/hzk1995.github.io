@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<script type="text/javascript">
+		var obj={
+		             _instance:null,
+		             createDiv:function () {
+		                 if(!this._instance){
+		                     this._instance=document.createElement("div");
+		                 }
+		                 return this._instance;
+		             }
+		         };
+		var div1=obj.createDiv();
+		var div2=obj.createDiv();
+		console.log(div1===div2);
+	</script>
+	<body>
+	</body>
+</html>
